@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add(){
+             document.getElementById("p1").style.color = "green";
+             document.getElementById("p2").style.color = "green";
+             document.getElementById("p3").style.color = "green";
+              
+        }
+    </script>
+</head>
+<body>
+    <from>
+        Name<input  type="text" id="p1"  ondblclick = "add()" >
+        <br>
+        Age:<input  type="text" id="p2" onclick= "add()">
+        <br>
+        Birthdate:<input type="text" id="p3" onclick = "add()">
+    </from>
+</body>
+</html>
